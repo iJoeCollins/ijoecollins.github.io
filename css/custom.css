@@ -1,0 +1,62 @@
+/* Custom Developer styles
+-------------------------------------------------- */
+
+.container {
+	max-width: 920px !important;
+}
+
+.navigation-container {
+	max-width: 920px;
+}
+
+.navigation-container .btn-outline {
+	margin-top: 20px;
+}
+
+a.text-muted {
+	color: #999;
+}
+
+a.text-muted:hover {
+	color: #111;
+	text-decoration: none !important;
+}
+
+.btn-outline {
+  color: #428bca;
+  font-weight: bold;
+  background-color: transparent;
+  border-color: #428bca;
+  border-width: 2px;
+}
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active,
+.open .dropdown-toggle.btn-outline {
+  color: #FFF;
+  background-color: #428bca;
+}
+
+.btn-primary {
+  color: #FFF;
+  font-weight: bold;
+  background-color: transparent;
+  border-color: #FFF;
+  border-width: 2px;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #FFF;
+  background-color: #428bca;
+  border-color: #FFF;
+}
+
+.jumbotron {
+	color: #FFF;
+	background-color: transparent;
+	background-image:url('../img/bg_blur.jpg');
+}
